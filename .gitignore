@@ -1,0 +1,14 @@
+bin/
+*.class
+.settings/
+.metadata/
+
+# temporary files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# do not commit JavaFX SDK if it is inside the project by accident
+javafx-sdk*/
