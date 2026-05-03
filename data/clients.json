@@ -1,0 +1,152 @@
+[
+  {
+    "type": "VIPClient",
+    "clientID": "C1",
+    "name": "Matheas",
+    "password": "1234",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A1",
+        "balance": 500.0,
+        "openingDate": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "type": "VIPClient",
+    "clientID": "C2",
+    "name": "Matheas",
+    "password": "1234",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A2",
+        "balance": 500.0,
+        "openingDate": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "type": "VIPClient",
+    "clientID": "C3",
+    "name": "Matheas",
+    "password": "1234",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A3",
+        "balance": 500.0,
+        "openingDate": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "type": "VIPClient",
+    "clientID": "C4",
+    "name": "Matheas",
+    "password": "1234",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A4",
+        "balance": 500.0,
+        "openingDate": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "type": "VIPClient",
+    "clientID": "C5",
+    "name": "Matheas",
+    "password": "1234",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A5",
+        "balance": 500.0,
+        "openingDate": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "type": "VIPClient",
+    "clientID": "C6",
+    "name": "Matheas",
+    "password": "1234",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A6",
+        "balance": 500.0,
+        "openingDate": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "type": "VIPClient",
+    "clientID": "C7",
+    "name": "Matheas",
+    "password": "123",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A7",
+        "balance": 0.0,
+        "openingDate": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "type": "CorporateClient",
+    "clientID": "C8",
+    "name": "ma",
+    "password": "12",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A8",
+        "balance": 0.0,
+        "openingDate": "2026-05-02"
+      },
+      {
+        "type": "SavingsAccount",
+        "accountNumber": "A9",
+        "balance": 533.4496320956986,
+        "openingDate": "2026-05-02"
+      },
+      {
+        "type": "InvestmentAccount",
+        "accountNumber": "A10",
+        "balance": 2273.642816938357,
+        "openingDate": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "type": "VIPClient",
+    "clientID": "C9",
+    "name": "Alex",
+    "password": "1234",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A11",
+        "balance": 100.0,
+        "openingDate": "2026-05-02"
+      },
+      {
+        "type": "SavingsAccount",
+        "accountNumber": "A12",
+        "balance": 353.49,
+        "openingDate": "2026-05-02"
+      },
+      {
+        "type": "InvestmentAccount",
+        "accountNumber": "A13",
+        "balance": 1.689478961E7,
+        "openingDate": "2026-05-02"
+      }
+    ]
+  }
+]
