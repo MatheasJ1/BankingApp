@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f1f5f9;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <VBox maxWidth="605.0" prefHeight="400.0" prefWidth="605.0" spacing="12.0" StackPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+         <children>
+            <Label alignment="CENTER" prefHeight="42.0" prefWidth="560.0" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #0f172a;" text="E-Banking Login" textFill="#030303">
+               <font>
+                  <Font name="Century Gothic" size="33.0" />
+               </font>
+            </Label>
+            <TextField fx:id="clientField" promptText="Client ID" />
+            <PasswordField fx:id="passwordField" prefHeight="22.0" prefWidth="340.0" promptText="Password" />
+            <Button mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="557.0" style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 16;" text="Login">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#goToRegister" prefHeight="25.0" prefWidth="550.0" style="-fx-background-color: #16a34a; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 16;" text="Register" textAlignment="JUSTIFY" textFill="#070707">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="errorLabel" style="-fx-text-fill: #dc2626;" text="Label" />
+         </children>
+      </VBox>
+   </children>
+</StackPane>

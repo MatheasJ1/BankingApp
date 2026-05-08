@@ -138,14 +138,40 @@
       {
         "type": "SavingsAccount",
         "accountNumber": "A12",
-        "balance": 353.49,
+        "balance": 213.86413302692682,
         "openingDate": "2026-05-02"
       },
       {
         "type": "InvestmentAccount",
         "accountNumber": "A13",
-        "balance": 1.689478961E7,
+        "balance": 0.0,
         "openingDate": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "type": "StudentClient",
+    "clientID": "C10",
+    "name": "matheas",
+    "password": "jarrouj",
+    "accounts": [
+      {
+        "type": "ChequingAccount",
+        "accountNumber": "A14",
+        "balance": 150.0,
+        "openingDate": "2026-05-07"
+      },
+      {
+        "type": "SavingsAccount",
+        "accountNumber": "A15",
+        "balance": 0.0,
+        "openingDate": "2026-05-07"
+      },
+      {
+        "type": "InvestmentAccount",
+        "accountNumber": "A16",
+        "balance": 0.0,
+        "openingDate": "2026-05-07"
       }
     ]
   }
