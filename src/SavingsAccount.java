@@ -21,6 +21,7 @@ public class SavingsAccount extends Account implements InterestBearing, Maintain
         return;
     }
         double fee = 10.0;
+        balance-=fee;
         if(fee> balance) {
         	throw new InsufficientFundsException("Insufficient funds.");
         }

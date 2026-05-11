@@ -158,7 +158,7 @@
       {
         "type": "ChequingAccount",
         "accountNumber": "A14",
-        "balance": 150.0,
+        "balance": 0.0,
         "openingDate": "2026-05-07"
       },
       {
@@ -170,7 +170,7 @@
       {
         "type": "InvestmentAccount",
         "accountNumber": "A16",
-        "balance": 0.0,
+        "balance": 150.0,
         "openingDate": "2026-05-07"
       }
     ]

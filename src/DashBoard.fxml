@@ -23,15 +23,19 @@
       </VBox>
    </top>
    <left>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="logout" mnemonicParsing="false" onAction="#logout" text="Logout" />
+            <Button fx:id="refresh" mnemonicParsing="false" onAction="#refresh" text="Refresh" />
+         </children></VBox>
    </left>
    <center>
       <Label fx:id="messageLabel" text="Label" BorderPane.alignment="CENTER" />
    </center>
    <right>
-      <VBox prefHeight="367.0" prefWidth="230.0" spacing="8.0" BorderPane.alignment="CENTER">
+      <VBox minWidth="-Infinity" prefHeight="390.0" prefWidth="230.0" spacing="8.0" BorderPane.alignment="CENTER">
          <children>
-            <Button mnemonicParsing="false" onAction="#openChequing" style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 14;" text="Open Chequing" />
+            <Button mnemonicParsing="false" onAction="#openChequing" prefHeight="18.0" prefWidth="116.0" style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 14;" text="Open Chequing" />
             <Button fx:id="openSavings" mnemonicParsing="false" onAction="#openSavings" style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 14;" text="Open Savings" />
             <Button fx:id="openInvestment" mnemonicParsing="false" onAction="#openInvestment" style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 14;" text="Open Investment" />
             <Button fx:id="deposit" mnemonicParsing="false" onAction="#deposit" style="-fx-background-color: #16a34a; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 14;" text="Deposit" />
@@ -39,8 +43,6 @@
             <Button fx:id="transfer" mnemonicParsing="false" onAction="#transfer" style="-fx-background-color: #16a34a; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 14;" text="Transfer" />
             <Button fx:id="applyInterest" mnemonicParsing="false" onAction="#applyInterest" style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 14;" text="Apply Interest" />
             <Button fx:id="applyMonthlyFees" mnemonicParsing="false" onAction="#applyMonthlyFees" style="-fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 10 14;" text="Apply Monthly Fees" />
-            <Button fx:id="refresh" mnemonicParsing="false" onAction="#refresh" text="Refresh" />
-            <Button fx:id="logout" mnemonicParsing="false" onAction="#logout" text="Logout" />
          </children>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
